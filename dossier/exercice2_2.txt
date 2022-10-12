@@ -1,0 +1,12 @@
+ALGO exo2_2
+
+VAR
+    VAR notes[9] : ENTIER
+    VAR i : ENTIER
+DEBUT
+    POUR i <- 0 à 8 FAIRE
+        AFFICHER ("Entrer note " & i)
+        SAISIR(notes[i])
+
+    FINPOUR
+FIN
